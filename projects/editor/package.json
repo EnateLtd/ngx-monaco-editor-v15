@@ -1,0 +1,47 @@
+{
+  "name": "ngx-monaco-editor-v15",
+  "version": "15.0.2",
+  "private": false,
+  "description": "Monaco Code Editor for Angular 15",
+  "keywords": [
+    "angular",
+    "angular 2+",
+    "angular 2",
+    "angular 4",
+    "angular 5",
+    "angular 6",
+    "angular 7",
+    "angular 8",
+    "angular 9",
+    "angular 10",
+    "angular 12",
+    "angular 14",
+    "angular 15",
+    "monaco",
+    "monaco-editor",
+    "code",
+    "editor",
+    "reusable",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athreyacodes/ngx-monaco-editor-v15.git"
+  },
+  "bugs": {
+    "url": "https://github.com/athreyacodes/ngx-monaco-editor-v15/issues"
+  },
+  "license": "MIT",
+  "author": "Athreya",
+  "contributors": [
+    "Athreya <athreyamr10@gmail.com>"
+  ],
+  "peerDependencies": {
+    "@angular/common": "15.0.2",
+    "@angular/core": "15.0.2",
+    "monaco-editor": "^0.33.0"
+  },
+  "dependencies": {
+    "tslib": "2.4.1"
+  }
+}

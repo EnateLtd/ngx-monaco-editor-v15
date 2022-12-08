@@ -1,0 +1,69 @@
+{
+  "name": "ngx-monaco-editor-v15",
+  "version": "15.0.2",
+  "description": "Monaco Code Editor For Angular 15",
+  "keywords": [
+    "angular",
+    "monaco",
+    "monaco-editor-v2",
+    "code",
+    "editor",
+    "reusable"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "run-s build-editor serve",
+    "serve": "ng serve",
+    "build": "ng build --project=editor-tester --base-href=editor-tester --configuration=development",
+    "build:prod": "ng build --project=editor-tester --base-href=editor-tester",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build-editor": "npm run copy:readme && ng build editor",
+    "npm-publish": "npm run build-editor && bash npm-publish",
+    "copy:readme": "cp -rf README.md projects/editor/"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athreyacodes/ngx-monaco-editor-v15.git"
+  },
+  "bugs": {
+    "url": "https://github.com/athreyacodes/ngx-monaco-editor-v15/issues"
+  },
+  "author": "Athreya",
+  "contributors": [
+    "Athreya <athreyamr10@gmail.com>"
+  ],
+  "dependencies": {
+    "@angular/animations": "15.0.2",
+    "@angular/common": "15.0.2",
+    "@angular/compiler": "15.0.2",
+    "@angular/core": "15.0.2",
+    "@angular/forms": "15.0.2",
+    "@angular/platform-browser": "15.0.2",
+    "@angular/platform-browser-dynamic": "15.0.2",
+    "@angular/router": "15.0.2",
+    "monaco-editor": "0.34.1",
+    "rxjs": "7.5.7",
+    "tslib": "2.4.1",
+    "zone.js": "~0.12.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.1",
+    "@angular/cli": "15.0.2",
+    "@angular/compiler-cli": "15.0.2",
+    "@angular/language-service": "15.0.2",
+    "@types/jasmine": "4.3.1",
+    "@types/node": "18.11.12",
+    "jasmine-core": "4.5.0",
+    "karma": "6.4.1",
+    "karma-chrome-launcher": "3.1.1",
+    "karma-coverage": "2.2.0",
+    "karma-jasmine": "5.1.0",
+    "karma-jasmine-html-reporter": "2.0.0",
+    "ng-packagr": "15.0.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.8.2"
+  }
+}
