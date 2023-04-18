@@ -37,9 +37,9 @@
     "Athreya <athreyamr10@gmail.com>"
   ],
   "peerDependencies": {
-    "@angular/common": "^15.0.2",
-    "@angular/core": "^15.0.2",
-    "monaco-editor": "^0.34.1"
+    "@angular/common": "^15.2.7",
+    "@angular/core": "^15.2.7",
+    "monaco-editor": "^0.37.1"
   },
   "dependencies": {
     "tslib": "2.4.1"
