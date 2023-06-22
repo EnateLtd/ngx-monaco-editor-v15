@@ -1,6 +1,6 @@
 {
   "name": "ngx-monaco-editor-v15",
-  "version": "15.0.9",
+  "version": "15.0.10",
   "private": false,
   "description": "Monaco Code Editor for Angular 15",
   "keywords": [
@@ -37,11 +37,11 @@
     "Athreya <athreyamr10@gmail.com>"
   ],
   "peerDependencies": {
-    "@angular/common": "^15.2.7",
-    "@angular/core": "^15.2.7",
-    "monaco-editor": "^0.37.1"
+    "@angular/common": "^15.2.9",
+    "@angular/core": "^15.2.9",
+    "monaco-editor": "^0.39.0"
   },
   "dependencies": {
-    "tslib": "2.4.1"
+    "tslib": "2.5.3"
   }
 }
