@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ngx-monaco-editor-v15/v17/.wsuo
+/.vs/ngx-monaco-editor-v15/config/applicationhost.config
+/.vs/ngx-monaco-editor-v15/FileContentIndex/89ae301a-8718-48e1-9c6c-7dc66c0879d0.vsidx
+/.vs/ngx-monaco-editor-v15/FileContentIndex/2868c559-63c8-425f-85a5-c42d2396d7f9.vsidx
+/.vs/ngx-monaco-editor-v15/FileContentIndex
